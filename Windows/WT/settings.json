@@ -70,7 +70,6 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "startingDirectory": "%UserProfile%"
-                
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
