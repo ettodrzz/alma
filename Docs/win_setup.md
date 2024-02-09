@@ -1,5 +1,35 @@
 # Windows setup
 
+## PowerShell 5
+
+### Prerequisite
+
+The execution policy needs to be set in *Unrestricted* or *Remote-Signed* to be able to execute scripts. Check the current execution policy:
+
+```powershell
+Get-ExecutionPolicy
+```
+
+If necessary, change the scope:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### Configuration
+
+Restore profile and prompt script:
+
+```powershell
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/PS5/Microsoft.PowerShell_profile.ps1 -OutFile (ni $Profile -Force); iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/Scripts/Microsoft.PowerShell_prompt.ps1 -OutFile (ni $Home\Scripts\Microsoft.PowerShell_prompt.ps1 -Force)
+```
+
+Reopen the terminal to see changes, or source the profile:
+
+```powershell
+. $Profile
+```
+
 ## Windows Terminal
 
 ### Installation
