@@ -24,10 +24,16 @@ Install the latest version of Windows Terminal:
 winget install --id 9N0DX20HK701
 ```
 
+Check that Windows Terminal is installed:
+
+```powershell
+wt --version
+```
+
 ### Configuration
 
 Restore configuration files:
 
 ```powershell
-iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.json -OutFile $Env:AppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/state.json -OutFile $Env:AppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\state.json
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/state.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\state.json
 ```
