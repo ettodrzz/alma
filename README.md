@@ -6,5 +6,6 @@ This repository saves my configuration files and scripts for the tools I typical
 
 ### Windows
 
-- [PowerShell 5](https://github.com/ettodrzz/Alma/blob/main/Docs/win_setup.md#powershell-5)
 - [Windows Terminal](https://github.com/ettodrzz/Alma/blob/main/Docs/win_setup.md#windows-terminal)
+- [PowerShell 5](https://github.com/ettodrzz/Alma/blob/main/Docs/win_setup.md#powershell-5)
+- [Visual Studio Code](https://github.com/ettodrzz/Alma/blob/main/Docs/win_setup.md#visual-studio-code)
