@@ -1,5 +1,45 @@
 # Windows setup
 
+## Winget
+
+Winget is supported on Windows 10 1709 or later, usually it's already installed. Check installed version:
+
+```powershell
+winget --version
+```
+
+If Winget isn't available yet, force installation:
+
+```powershell
+Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+```
+
+## Windows Terminal
+
+### Installation
+
+Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/9N0DX20HK701?launch=true&mode=mini), or using [Winget](#winget).
+
+Install the latest version:
+
+```powershell
+winget install 9N0DX20HK701
+```
+
+Check the version installed:
+
+```powershell
+wt --version
+```
+
+### Configuration
+
+Restore configuration files:
+
+```powershell
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/state.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\state.json
+```
+
 ## PowerShell 5
 
 ### Prerequisite
@@ -30,54 +70,22 @@ Reopen the terminal to see changes, or source the profile:
 . $Profile
 ```
 
-## Windows Terminal
-
-### Installation
-
-Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/9N0DX20HK701?launch=true&mode=mini), or using [↗ Winget](https://learn.microsoft.com/en-us/windows/package-manager).
-
-Winget is supported on Windows 10 1709 or later, usually it's already installed. Check installed version:
-
-```powershell
-winget --version
-```
-
-If Winget isn't available yet, force installation:
-
-```powershell
-Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
-```
-
-Install the latest version of Windows Terminal:
-
-```powershell
-winget install 9N0DX20HK701
-```
-
-Check that Windows Terminal is installed:
-
-```powershell
-wt --version
-```
-
-### Configuration
-
-Restore configuration files:
-
-```powershell
-iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/state.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\state.json
-```
-
 ## Visual Studio Code
 
 ### Installation
 
-Download Visual Studio Code directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/XP9KHM4BK9FZ7Q?launch=true&mode=mini), or using Winget.
+Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/XP9KHM4BK9FZ7Q?launch=true&mode=mini), or using [Winget](#winget).
 
-Install the latest version of Visual Studio Code:
+Install the latest version:
 
 ```powershell
 winget install XP9KHM4BK9FZ7Q
+```
+
+Check the version installed:
+
+```powershell
+code --version
 ```
 
 ### Configuration
@@ -85,5 +93,5 @@ winget install XP9KHM4BK9FZ7Q
 Restore configuration file and keybindings file:
 
 ```powershell
-iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/settings.json -OutFile (ni $Env:AppData\Code\User\settings.json -Force); iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/keybindings.json -OutFile (ni $Env:AppData\Code\User\keybindings.json -Force)
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/settings.json -OutFile $Env:AppData\Code\User\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/keybindings.json -OutFile $Env:AppData\Code\User\keybindings.json
 ```
