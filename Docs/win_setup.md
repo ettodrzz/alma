@@ -4,13 +4,13 @@
 
 ### Prerequisite
 
-The execution policy needs to be set in *Unrestricted* or *Remote-Signed* to be able to execute scripts. Check the current execution policy:
+The execution policy needs to be set in *Unrestricted* or *Remote-Signed* to be able to execute scripts. Check the current:
 
 ```powershell
 Get-ExecutionPolicy
 ```
 
-If necessary, change the scope:
+If necessary, change the execution policy:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
