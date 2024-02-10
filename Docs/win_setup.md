@@ -51,7 +51,7 @@ Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller
 Install the latest version of Windows Terminal:
 
 ```powershell
-winget install --id 9N0DX20HK701
+winget install 9N0DX20HK701
 ```
 
 Check that Windows Terminal is installed:
@@ -66,4 +66,24 @@ Restore configuration files:
 
 ```powershell
 iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/state.json -OutFile $Env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\state.json
+```
+
+## Visual Studio Code
+
+### Installation
+
+Download Visual Studio Code directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/XP9KHM4BK9FZ7Q?launch=true&mode=mini), or using Winget.
+
+Install the latest version of Visual Studio Code:
+
+```powershell
+winget install XP9KHM4BK9FZ7Q
+```
+
+### Configuration
+
+Restore configuration file and keybindings file:
+
+```powershell
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/settings.json -OutFile (ni $Env:AppData\Code\User\settings.json -Force); iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/keybindings.json -OutFile (ni $Env:AppData\Code\User\keybindings.json -Force)
 ```
