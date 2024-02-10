@@ -1,14 +1,18 @@
 # Windows setup
 
-## Winget
+## Getting started
 
-Winget is supported on Windows 10 1709 or later, usually it's already installed. Check installed version:
+### WinGet
+
+*Enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service. [↗ WinGet documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/)*.
+
+WinGet is supported on Windows 10 1709 or later, usually it's already installed. Check installed version:
 
 ```powershell
 winget --version
 ```
 
-If Winget isn't available yet, force installation:
+If isn't available yet, force installation:
 
 ```powershell
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
@@ -16,9 +20,11 @@ Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller
 
 ## Windows Terminal
 
+*It's a modern host application for the command-line shells, like Command Prompt, PowerShell, and Bash (via WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts. [↗ Windows Terminal documentation](https://learn.microsoft.com/en-us/windows/terminal/)*.
+
 ### Installation
 
-Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/9N0DX20HK701?launch=true&mode=mini), or using [Winget](#winget).
+Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/9N0DX20HK701?launch=true&mode=mini), or using [WinGet](#winget).
 
 Install the latest version:
 
@@ -26,7 +32,7 @@ Install the latest version:
 winget install 9N0DX20HK701
 ```
 
-Check the version installed:
+Check the installed version:
 
 ```powershell
 wt --version
@@ -41,6 +47,8 @@ iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.jso
 ```
 
 ## PowerShell 5
+
+*It's a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. [↗ PowerShell documentation](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-5.1)*.
 
 ### Prerequisite
 
@@ -64,7 +72,7 @@ Restore profile and prompt script:
 iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/PS5/Microsoft.PowerShell_profile.ps1 -OutFile (ni $Profile -Force); iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/Scripts/Microsoft.PowerShell_prompt.ps1 -OutFile (ni $Home\Scripts\Microsoft.PowerShell_prompt.ps1 -Force)
 ```
 
-Reopen the terminal to see changes, or source the profile:
+To see changes, reopen the terminal or source the profile:
 
 ```powershell
 . $Profile
@@ -72,9 +80,11 @@ Reopen the terminal to see changes, or source the profile:
 
 ## Visual Studio Code
 
+*It's a lightweight but powerful source code editor. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). [↗ VSC documentation](https://code.visualstudio.com/docs)*.
+
 ### Installation
 
-Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/XP9KHM4BK9FZ7Q?launch=true&mode=mini), or using [Winget](#winget).
+Download Windows Terminal directly from [↗ Microsoft Store](https://apps.microsoft.com/detail/XP9KHM4BK9FZ7Q?launch=true&mode=mini), or using [WinGet](#winget).
 
 Install the latest version:
 
@@ -82,7 +92,7 @@ Install the latest version:
 winget install XP9KHM4BK9FZ7Q
 ```
 
-Check the version installed:
+Check the installed version:
 
 ```powershell
 code --version
