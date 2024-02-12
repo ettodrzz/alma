@@ -2,7 +2,7 @@
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
 
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Monokai",
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
 
