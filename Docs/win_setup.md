@@ -1,6 +1,15 @@
 # Windows setup
 
+## Contents
+
+- [Getting started](#getting-started)
+- [Windows Terminal](#windows-terminal)
+- [PowerShell 5](#powershell-5)
+- [Visual Studio Code](#visual-studio-code)
+
 ## Getting started
+
+This setup is for 64-bit Windows 10.
 
 ### WinGet
 
@@ -12,11 +21,7 @@ WinGet is supported on Windows 10 1709 or later, usually it's already installed.
 winget --version
 ```
 
-If isn't available yet, force installation:
-
-```powershell
-Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
-```
+If isn't available yet, install from [↗ Microsoft Store](https://apps.microsoft.com/detail/9NBLGGH4NNS1?launch=true&mode=mini).
 
 ## Windows Terminal
 
