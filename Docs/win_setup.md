@@ -13,7 +13,7 @@ This setup is for 64-bit Windows 10.
 
 ### WinGet
 
-*Enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service. [↗ WinGet documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/)*.
+*Enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service*. [↗ WinGet documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
 
 WinGet is supported on Windows 10 1709 or later, usually it's already installed. Check installed version:
 
@@ -25,7 +25,7 @@ If isn't available yet, install from [↗ Microsoft Store](https://apps.microsof
 
 ## Windows Terminal
 
-*It's a modern host application for the command-line shells, like Command Prompt, PowerShell, and Bash (via WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts. [↗ Windows Terminal documentation](https://learn.microsoft.com/en-us/windows/terminal/)*.
+*It's a modern host application for the command-line shells, like Command Prompt, PowerShell, and Bash (via WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcuts*. [↗ Windows Terminal documentation](https://learn.microsoft.com/en-us/windows/terminal/).
 
 ### Installation
 
@@ -53,7 +53,7 @@ iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/WT/settings.jso
 
 ## PowerShell 5
 
-*It's a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. [↗ PowerShell documentation](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-5.1)*.
+*It's a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework*. [↗ PowerShell documentation](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-5.1).
 
 ### Prerequisite
 
@@ -85,7 +85,7 @@ To see changes, reopen the terminal or source the profile:
 
 ## Visual Studio Code
 
-*It's a lightweight but powerful source code editor. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). [↗ VSC documentation](https://code.visualstudio.com/docs)*.
+*It's a lightweight but powerful source code editor. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET)*. [↗ VSC documentation](https://code.visualstudio.com/docs).
 
 ### Installation
 
