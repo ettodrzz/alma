@@ -97,7 +97,7 @@ Install the latest version:
 winget install XP9KHM4BK9FZ7Q
 ```
 
-Check the installed version:
+Reopen shell, and check the installed version:
 
 ```powershell
 code --version
@@ -108,5 +108,5 @@ code --version
 Restore configuration file and keybindings file:
 
 ```powershell
-iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/settings.json -OutFile $Env:AppData\Code\User\settings.json; iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/keybindings.json -OutFile $Env:AppData\Code\User\keybindings.json
+iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/settings.json -OutFile (ni $Env:AppData\Code\User\settings.json -Force); iwr https://raw.githubusercontent.com/ettodrzz/Alma/main/Windows/VSC/keybindings.json -OutFile (ni $Env:AppData\Code\User\keybindings.json -Force)
 ```
