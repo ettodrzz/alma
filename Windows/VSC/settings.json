@@ -11,16 +11,17 @@
     "editor.autoClosingDelete": "never",
     "editor.autoClosingOvertype": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.fontFamily": "Cascadia Mono",
-    "editor.fontSize": 15,
-    "editor.fontWeight": 300,
+    "editor.autoClosingComments": "never",
+    "editor.fontFamily": "CaskaydiaMono Nerd Font",
+    "editor.fontSize": 14,
+    "editor.fontWeight": 100,
     "editor.insertSpaces": false,
     "editor.minimap.renderCharacters": false,
 
     "files.encoding": "utf8",
 
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontWeight": 300,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": 100,
 
     "html.autoClosingTags": false,
     "javascript.autoClosingTags": false,
