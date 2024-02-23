@@ -1,7 +1,7 @@
 # Window title, prompt
 function Prompt
 {
-	. $Home\Scripts\Microsoft.PowerShell_prompt.ps1
+	. $Home\Scripts\PS_prompt.ps1
 }
 
 # Functions
