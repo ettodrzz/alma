@@ -1,0 +1,11 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# Set English (US, international AltGr dead keys) keyboard layout
+setxkbmap -layout us -variant altgr-intl
+
+# Disable DPMS and prevent screen from blanking
+xset s off -dpms
