@@ -1,0 +1,30 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Number of lines in active history
+HISTSIZE=512
+
+# Number of lines in file history
+HISTFILESIZE=1024
+
+# Colored ls and grep
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+# Window title, prompt
+PROMPT_COMMAND="source ~/.scripts/bash_prompt.sh"
+
+# Functions
+# Change location to a specific directory
+cdoc()
+{
+        cd /mnt/c/Users/Etto/Documents
+}
+cdwn()
+{
+        cd /mnt/c/Users/Etto/Downloads
+}
+cprj()
+{
+        cd /mnt/c/Users/Etto/Documents/Projects
+}
