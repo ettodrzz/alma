@@ -1,0 +1,31 @@
+{
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+
+    "workbench.colorTheme": "Gruvbox Light Hard",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingComments": "never",
+    "editor.fontFamily": "Hack Nerd Font",
+    "editor.fontSize": 14,
+    "editor.insertSpaces": false,
+    "editor.minimap.renderCharacters": false,
+
+    "files.encoding": "utf8",
+
+    "terminal.integrated.fontSize": 14,
+
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+
+    "security.workspace.trust.enabled": false,
+
+    "cSpell.language": "en,es"
+}
