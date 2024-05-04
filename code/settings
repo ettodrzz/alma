@@ -12,13 +12,14 @@
     "editor.autoClosingOvertype": "never",
     "editor.autoClosingQuotes": "never",
     "editor.autoClosingComments": "never",
-    "editor.fontFamily": "Hack Nerd Font",
+    "editor.fontFamily": "Hack",
     "editor.fontSize": 14,
     "editor.insertSpaces": false,
     "editor.minimap.renderCharacters": false,
 
     "files.encoding": "utf8",
 
+    "terminal.integrated.fontFamily": "Hack",
     "terminal.integrated.fontSize": 14,
 
     "html.autoClosingTags": false,
