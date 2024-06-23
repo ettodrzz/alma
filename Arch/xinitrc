@@ -5,5 +5,9 @@
 # Disable `Display Power Management Signaling` and screen saver functions
 #xset s off -dpms
 
+# Startup apps
+#picom -b &
+#pa-applet &
+
 # Start graphical environment
 #exec qtile start
