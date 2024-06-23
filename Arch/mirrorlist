@@ -1,4 +1,5 @@
 # Mexico
+Server = https://lidsol.fi-b.unam.mx/archlinux/$repo/os/$arch
 Server = https://arch.jsc.mx/$repo/os/$arch
 
 # Worldwide
