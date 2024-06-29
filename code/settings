@@ -1,32 +1,108 @@
 {
-    "window.commandCenter": false,
-    "window.menuBarVisibility": "compact",
+	// ------
+	// Window
+	// ------
 
-    "workbench.colorTheme": "Gruvbox Light Hard",
-    "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "none",
+	// Show command launcher together with window title
+	"window.commandCenter": false,
 
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.autoClosingBrackets": "never",
-    "editor.autoClosingDelete": "never",
-    "editor.autoClosingOvertype": "never",
-    "editor.autoClosingQuotes": "never",
-    "editor.autoClosingComments": "never",
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 14,
-    "editor.insertSpaces": false,
-    "editor.minimap.renderCharacters": false,
+	// Control the visibility of the menu bar
+	"window.menuBarVisibility": "compact",
 
-    "files.encoding": "utf8",
+	// ---------
+	// Workbench
+	// ---------
 
-    "terminal.integrated.fontFamily": "Hack",
-    "terminal.integrated.fontSize": 14,
+	// Specifies the color theme used in the workbench
+	"workbench.colorTheme": "Solarized Light",
 
-    "html.autoClosingTags": false,
-    "javascript.autoClosingTags": false,
-    "typescript.autoClosingTags": false,
+	// Controls whether the layout control is shown in the custom title bar
+	"workbench.layoutControl.enabled": false,
 
-    "security.workspace.trust.enabled": false,
+	// Controls which editor is shown at startup
+	"workbench.startupEditor": "none",
 
-    "cSpell.language": "en,es"
+	// ------
+	// Editor
+	// ------
+
+	// Controls whether suggestions should be accepted on Enter
+	"editor.acceptSuggestionOnEnter": "off",
+
+	// Controls whether the editor should automatically close brackets after the user adds an opening bracket
+	"editor.autoClosingBrackets": "never",
+
+	// Controls whether the editor should remove adjacent closing quotes or brackets whe deleting
+	"editor.autoClosingDelete": "never",
+
+	// Controls whether the editor should type over closing quotes or brackets
+	"editor.autoClosingOvertype": "never",
+
+	// Controls whether the editor should automatically close quotes after the user adds an opening quote
+	"editor.autoClosingQuotes": "never",
+
+	// Controls whether the editor should automatically close comments after the user adds an opening comment
+	"editor.autoClosingComments": "never",
+
+	// Controls whether `editor.tabSize` and `editor.insertSpaces` will be automatically detected when a file is opened based on the file contents
+	"editor.detectIndentation": false,
+
+	// Controls the font family
+	"editor.fontFamily": "CaskaydiaMono Nerd Font",
+
+	// Controls the font size in pixels
+	"editor.fontSize": 15,
+
+	// Controls whether bracket pair guides are enabled or not
+	"editor.guides.bracketPairs": true,
+
+	// Insert spaces when pressing Tab
+	"editor.insertSpaces": false,
+
+	// Controls whether the editor has linked editing enabled
+	"editor.linkedEditing": true,
+
+	// Render the actual characters on a line as opposed to color blocks
+	"editor.minimap.renderCharacters": false,
+
+	// The number of spaces a tab is equal to
+	"editor.tabSize": 2,
+
+	// Controls how lines should wrap
+	"editor.wordWrap": "on",
+
+	// --------
+	// Terminal
+	// --------
+
+	// Controls the font family of the terminal
+	"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+	
+	// Controls the font size in pixels of the terminal
+	"terminal.integrated.fontSize": 15,
+
+	// -----------------
+	// Auto closing tags
+	// -----------------
+
+	// Enable/disable autoclosing of HTML tags
+	"html.autoClosingTags": false,
+
+	// Enable/disable automatic closing of JSX tags
+	"javascript.autoClosingTags": false,
+	"typescript.autoClosingTags": false,
+
+	// --------
+	// Security
+	// --------
+
+	// Controls whether or not Workspace Trust is enabled within VS Code
+	"security.workspace.trust.enabled": false,
+
+	// ----------
+	// Extensions
+	// ----------
+
+	// Current active spelling language
+	"cSpell.language": "en,es"
 }
