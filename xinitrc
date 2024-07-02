@@ -1,13 +1,13 @@
 # Set the keyboard layout
 # Layouts and variants can be found in /usr/share/X11/xkb
-#setxkbmap -layout us -variant altgr-intl
+setxkbmap -layout us -variant altgr-intl
 
 # Disable `Display Power Management Signaling` and screen saver functions
-#xset s off -dpms
+xset s off -dpms
 
 # Startup apps
 #picom -b &
 #pa-applet &
 
 # Start graphical environment
-#exec qtile start
+exec qtile start

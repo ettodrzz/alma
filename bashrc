@@ -12,7 +12,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 # Window title, prompt
-PROMPT_COMMAND="source ~/.bash_scripts/prompt.sh"
+PROMPT_COMMAND="source ~/.scripts/prompt.sh"
 
 # Functions
 # Change location to a specific directory
