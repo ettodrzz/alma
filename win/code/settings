@@ -113,5 +113,5 @@
 	// ----------
 
 	// Current active spelling language
-	//"cSpell.language": "en,es"
+	"cSpell.language": "en,es"
 }
