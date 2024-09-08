@@ -14,7 +14,7 @@
 	// ---------
 
 	// Specifies the color theme used in the workbench
-	"workbench.colorTheme": "Solarized Light",
+	//"workbench.colorTheme": "Gruvbox Light Hard",
 
 	// Controls whether the layout control is shown in the custom title bar
 	"workbench.layoutControl.enabled": false,
@@ -48,10 +48,10 @@
 	"editor.detectIndentation": false,
 
 	// Controls the font family
-	"editor.fontFamily": "CaskaydiaMono Nerd Font",
+	//"editor.fontFamily": "CaskaydiaMono Nerd Font",
 
 	// Controls the font size in pixels
-	"editor.fontSize": 15,
+	//"editor.fontSize": 15,
 
 	// Controls whether bracket pair guides are enabled or not
 	"editor.guides.bracketPairs": true,
@@ -76,10 +76,10 @@
 	// --------
 
 	// Controls the font family of the terminal
-	"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+	//"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
 	
 	// Controls the font size in pixels of the terminal
-	"terminal.integrated.fontSize": 15,
+	//"terminal.integrated.fontSize": 15,
 
 	// -----------------
 	// Auto closing tags
@@ -104,5 +104,5 @@
 	// ----------
 
 	// Current active spelling language
-	"cSpell.language": "en,es"
+	//"cSpell.language": "en,es"
 }
