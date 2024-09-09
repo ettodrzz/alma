@@ -7,7 +7,7 @@
 	"window.commandCenter": false,
 
 	// Control the visibility of the menu bar
-	"window.menuBarVisibility": "compact",
+	"window.menuBarVisibility": "hidden",
 
 	// ---------
 	// Workbench
