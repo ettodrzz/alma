@@ -14,7 +14,7 @@
 	// ---------
 
 	// Specifies the color theme used in the workbench
-	"workbench.colorTheme": "Gruvbox Light Medium",
+	"workbench.colorTheme": "Gruvbox Light Hard",
 
 	// Controls whether the layout control is shown in the custom title bar
 	"workbench.layoutControl.enabled": false,
