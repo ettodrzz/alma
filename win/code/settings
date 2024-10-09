@@ -14,8 +14,7 @@
 	// ---------
 
 	// Specifies the color theme used in the workbench
-	//"workbench.colorTheme": "Gruvbox Light Hard",
-	"workbench.colorTheme": "Default Light Modern",
+	"workbench.colorTheme": "Gruvbox Light Medium",
 
 	// Controls whether the layout control is shown in the custom title bar
 	"workbench.layoutControl.enabled": false,
@@ -49,8 +48,7 @@
 	"editor.detectIndentation": false,
 
 	// Controls the font family
-	//"editor.fontFamily": "CaskaydiaMono Nerd Font",
-	"editor.fontFamily": "Cascadia Mono",
+	"editor.fontFamily": "CaskaydiaMono Nerd Font",
 
 	// Controls the font size in pixels
 	"editor.fontSize": 14,
@@ -84,8 +82,7 @@
 	// --------
 
 	// Controls the font family of the terminal
-	//"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
-	"terminal.integrated.fontFamily": "Cascadia Mono",
+	"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
 	
 	// Controls the font size in pixels of the terminal
 	"terminal.integrated.fontSize": 15,
@@ -119,5 +116,5 @@
 	// ----------
 
 	// Current active spelling language
-	//"cSpell.language": "en,es"
+	"cSpell.language": "en,es"
 }
