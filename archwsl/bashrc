@@ -1,0 +1,23 @@
+# Variables
+winuser="$(cmd.exe /c echo %username% 2>/dev/null | tr -d '\r')"
+
+# Functions
+# Change location to a specific directory
+cdoc() {
+	cd ~/Documents
+}
+cdwn() {
+	cd ~/Downloads
+}
+cprj() {
+	cd ~/Documents/Projects
+}
+cwh() {
+	cd /mnt/c/Users/${winuser}
+}
+cwdoc() {
+	cd /mnt/c/Users/${winuser}/Documents
+}
+cwdwn() {
+	cd /mnt/c/Users/${winuser}/Downloads
+}

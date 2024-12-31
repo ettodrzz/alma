@@ -1,0 +1,15 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Colored ls and grep
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+# bash-completion
+# Maybe need to install bash-completion package
+if [[ -r /usr/share/bash-completion/bash_completion ]]; then
+	. /usr/share/bash-completion/bash_completion
+fi
+
+# Window title, prompt
+PROMPT_COMMAND='source /etc/scripts/colored_prompt.sh'
